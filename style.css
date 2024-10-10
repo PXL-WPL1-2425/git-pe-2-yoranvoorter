@@ -7,10 +7,10 @@
 .nav_container {
     width: 100%;
     display: flex;
+    justify-content: space-evenly;
 }
 
 nav.nav_container > div {
-    flex: 1;
     padding: 15px;
 }
 
@@ -25,4 +25,14 @@ ul > li > a {
     font-size: 14pt;
     text-decoration: none;
     line-height: 100px;
+}
+
+div > a.sign_in_btn {
+    font-size: 14pt;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 100px;
+    background-color: red;
+    padding: 10px 25px;
+    border-radius: 15pt;
 }
