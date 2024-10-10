@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav_container {
+    width: 100%;
+    height: 100px;
+}
+
+nav.nav_container > div {
+    width: 33%;
+}
