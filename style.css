@@ -7,7 +7,9 @@
 .nav_container {
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    position: absolute;
+    z-index: 1;
 }
 
 nav.nav_container > div {
@@ -17,7 +19,6 @@ nav.nav_container > div {
 ul {
     list-style-type: none;
     display: flex;
-    justify-content: space-evenly;
 }
 
 ul > li > a {
@@ -25,6 +26,7 @@ ul > li > a {
     font-size: 14pt;
     text-decoration: none;
     line-height: 100px;
+    margin: auto 15px auto 15px;
 }
 
 div > a.sign_in_btn {
@@ -35,4 +37,10 @@ div > a.sign_in_btn {
     background-color: red;
     padding: 10px 25px;
     border-radius: 15pt;
+}
+
+.hero_new__video {
+    width: 100%;
+    height: auto;
+    position: absolute;
 }
